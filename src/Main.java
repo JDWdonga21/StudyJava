@@ -19,5 +19,39 @@ public class Main {
 
         boolean aBool = true;
         System.out.println(aBool);
+
+        //조건문 : if 만약 ~라면... ==, ~가 아니라면 !=
+        //중단점 활용 : 중단점 찍고 디버그로 실행 F8로 한단계씩 실행, F9다음 중단점 까지 쭉 실행
+        if(aInt == 10){
+            System.out.println("10이 맞습니다!");
+        } else if (aInt==11) {
+            System.out.println("11이 맞습니다!");
+        } else {
+            // 모든 조건이 모두 아닌 경우 실행
+            System.out.println("10, 11이 아닙니다.");
+        }
+
+        switch (aInt){
+            case 10:
+                System.out.println("(스위치)10이 맞습니다!");
+                break;
+            case 11:
+                System.out.println("(스위치)11이 맞습니다!");
+                break;
+            default:
+                System.out.println("아무것도 해당 안 됨!");
+                break;
+        }
+        //만약 브레이크를 쓰지 않으면?
+        switch (aInt){
+            case 10:
+                System.out.println("(스위치)10이 맞습니다!");
+            case 11:
+                System.out.println("(스위치)10또는 11이 맞습니다!");
+                break;
+            default:
+                System.out.println("아무것도 해당 안 됨!");
+                break;
+        }
     }
 }
