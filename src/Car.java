@@ -12,6 +12,7 @@ public class Car {
             else {
                 System.out.println("(홀)반복문 실행 또는 0");
             }
+            System.out.println("for문 끝");
 
         }
     }
