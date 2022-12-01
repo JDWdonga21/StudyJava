@@ -19,5 +19,8 @@ public class Access extends Anime{
         Access newAccess = new Access();
         String tests = newAccess.testPro;
         System.out.println(tests);
+
+//        메소드 - 특정 작업을 수행하는 명령
+
     }
 }
