@@ -10,6 +10,8 @@ public class PrimeNumber {
         PrimeNumber pn = new PrimeNumber();
         System.out.print(inputNum + "의 소수의 갯수는 ");
         System.out.println(pn.countPrimes(inputNum) + "개 입니다.");
+        
+        sc.close();
     }
     public int countPrimes(int n) {
         boolean[] isPrime = new boolean[n];

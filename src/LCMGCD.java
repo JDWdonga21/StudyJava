@@ -24,5 +24,7 @@ public class LCMGCD {
         // 결과를 출력
         System.out.println("최대공약수: " + gcd);
         System.out.println("최소공배수: " + lcm);
+        
+        scanner.close();
     }
 }
