@@ -6,7 +6,7 @@ public class LinkedList {
 	 * ToDo
 	 * 1. Node 클래스 정의
 	 * 2. LinkedList 클래스 구현
-	 * 3. 메서드 구현 (add, remove)
+	 * 3. 메서드 구현 (add, remove, contains, display)
 	 * */
 	
 	private Node head; 
