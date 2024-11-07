@@ -24,6 +24,44 @@ public class LinkedListExample {
 		System.out.println(test);
 		test = myLinkList.contains(40);
 		System.out.println(test);
+		
+		System.out.println("--------- - ---------- - -----------");
+		System.out.println("--- linkedlist 활용 stack, Queue ---");
+		System.out.println("--------- - ---------- - -----------");
+		LinkedListStackQueue myStackList = new LinkedListStackQueue();
+		myStackList.push(11);
+		myStackList.push(22);
+		myStackList.push(33);
+		
+		myStackList.display();
+		myStackList.push(44);
+		myStackList.display();
+		myStackList.stackPop();
+		
+		myStackList.display();
+		myStackList.stackPop();
+		
+		myStackList.display();
+		myStackList.stackPop();
+		myStackList.display();
+		LinkedListStackQueue myQueueList = new LinkedListStackQueue();
+		myQueueList.push(111);
+		myQueueList.push(222);
+		myQueueList.push(333);
+		
+		myQueueList.display();
+		
+		myQueueList.queuePop();
+		myQueueList.push(444);
+		myQueueList.display();
+		
+		myQueueList.queuePop();
+		myQueueList.push(555);
+		myQueueList.display();
+		
+		myQueueList.queuePop();
+		
+		myQueueList.display();
 	}
 
 }
